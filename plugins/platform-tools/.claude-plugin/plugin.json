@@ -1,0 +1,20 @@
+{
+  "name": "platform-tools",
+  "version": "0.3.0",
+  "description": "Production debugging, ops, alert investigation, queue diagnostics, and code review tools. 5 agents including production debugging with MCP tool integration, queue starvation diagnosis, and a persona-based code reviewer.",
+  "author": {
+    "name": "Albert Gwo"
+  },
+  "homepage": "https://github.com/ruminaider/agentic-tooling",
+  "license": "MIT",
+  "keywords": [
+    "debugging",
+    "ops",
+    "alert-investigation",
+    "queue-investigation",
+    "code-review",
+    "persona",
+    "newrelic",
+    "render"
+  ]
+}

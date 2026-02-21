@@ -1,0 +1,21 @@
+{
+  "name": "agentic-tooling",
+  "owner": {
+    "name": "Albert Gwo"
+  },
+  "metadata": {
+    "description": "Claude Code plugins and tooling for platform engineering teams"
+  },
+  "plugins": [
+    {
+      "name": "platform-tools",
+      "source": "./plugins/platform-tools",
+      "description": "Production debugging, ops, and alert investigation tools.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Albert Gwo"
+      },
+      "tags": ["debugging", "ops", "newrelic", "render"]
+    }
+  ]
+}
