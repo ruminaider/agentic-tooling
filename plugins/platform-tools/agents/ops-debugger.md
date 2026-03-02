@@ -102,7 +102,7 @@ Use: `mcp__render__query_render_postgres`
 
 3. **For related entities, check their admin logs too:**
 ```sql
--- If the entity has a foreign key (e.g., urine_test_id, consult_id)
+-- If the entity has a foreign key (e.g., order_id, user_id)
 SELECT dal.action_time, dal.change_message, dal.object_repr, u.email
 FROM django_admin_log dal
 JOIN auth_user u ON dal.user_id = u.id
